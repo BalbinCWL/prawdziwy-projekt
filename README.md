@@ -51,7 +51,6 @@
     <header class="fixed w-full bg-white z-50 shadow-sm">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-cormorant font-bold tracking-wider">ATELIER ÉLÉGANCE</a>
-            
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex space-x-8">
                 <a href="#" class="hover:text-gray-600 transition">Strona główna</a>
@@ -60,7 +59,6 @@
                 <a href="#" class="hover:text-gray-600 transition">O nas</a>
                 <a href="#" class="hover:text-gray-600 transition">Kontakt</a>
             </nav>
-            
             <div class="flex items-center space-x-4">
                 <div class="hidden md:block relative group">
                     <button class="flex items-center space-x-1">
@@ -72,7 +70,6 @@
                         <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-100">ES</a>
                     </div>
                 </div>
-                
                 <div class="flex items-center space-x-4">
                     <a href="#" class="hover:text-gray-600 transition"><i class="far fa-user"></i></a>
                     <a href="#" class="hover:text-gray-600 transition"><i class="far fa-heart"></i></a>
@@ -87,7 +84,6 @@
             </div>
         </div>
     </header>
-
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="menu-mobile fixed inset-0 bg-white z-50 pt-20 px-6 overflow-y-auto">
         <div class="flex flex-col space-y-6 text-lg">
@@ -96,7 +92,6 @@
             <a href="#" class="border-b border-gray-100 pb-2">Lookbook</a>
             <a href="#" class="border-b border-gray-100 pb-2">O nas</a>
             <a href="#" class="border-b border-gray-100 pb-2">Kontakt</a>
-            
             <div class="flex items-center space-x-4 pt-4">
                 <span class="font-medium">PL</span>
                 <span class="text-gray-500">EN</span>
@@ -107,26 +102,22 @@
             <i class="fas fa-times"></i>
         </button>
     </div>
-
     <!-- Hero Section -->
     <section class="relative h-screen flex items-center pt-16">
         <div class="absolute inset-0 bg-black opacity-30"></div>
         <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');"></div>
-        
         <div class="container mx-auto px-4 relative z-10 text-white">
             <h1 class="font-cormorant text-5xl md:text-7xl font-light mb-6">Elegancja w każdym detalu</h1>
             <p class="text-xl md:text-2xl max-w-2xl mb-8">Ponadczasowe projekty, które staną się fundamentem Twojej garderoby na lata.</p>
             <a href="#" class="inline-block bg-black text-white px-8 py-3 hover:bg-gray-800 transition">Odkryj kolekcję</a>
         </div>
     </section>
-
     <!-- Katalog -->
     <section class="py-20 container mx-auto px-4">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <h2 class="font-cormorant text-3xl md:text-4xl mb-4">Odkryj nasze kolekcje</h2>
             <p class="text-lg text-gray-600">Poznaj nasze starannie wyselekcjonowane kolekcje, stworzone z myślą o tych, którzy doceniają ponadczasową elegancję i najwyższą jakość wykonania.</p>
         </div>
-        
         <div class="grid md:grid-cols-3 gap-8">
             <!-- Kategoria 1 -->
             <div class="relative group overflow-hidden h-[500px]">
@@ -140,7 +131,6 @@
                     <span class="bg-white px-4 py-1 text-sm">24 produkty</span>
                 </div>
             </div>
-            
             <!-- Kategoria 2 -->
             <div class="relative group overflow-hidden h-[500px]">
                 <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80');"></div>
@@ -153,7 +143,6 @@
                     <span class="bg-white px-4 py-1 text-sm">18 produktów</span>
                 </div>
             </div>
-            
             <!-- Kategoria 3 -->
             <div class="relative group overflow-hidden h-[500px]">
                 <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style="background-image: url('https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80');"></div>
@@ -167,17 +156,14 @@
                 </div>
             </div>
         </div>
-
         <div class="text-center mt-16">
             <a href="#" class="inline-block border-2 border-black px-8 py-3 hover:bg-black hover:text-white transition font-medium">Przeglądaj cały katalog</a>
         </div>
     </section>
-
     <!-- Featured Products -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <h2 class="font-cormorant text-3xl md:text-4xl text-center mb-12">Polecane produkty</h2>
-            
             <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                 <!-- Product 1 -->
                 <div class="product-card relative group">
@@ -194,7 +180,6 @@
                     <p class="text-gray-600 mb-2">1 299 PLN</p>
                     <button class="w-full bg-black text-white py-2 hover:bg-gray-800 transition">Dodaj do koszyka</button>
                 </div>
-                
                 <!-- Product 2 -->
                 <div class="product-card relative group">
                     <div class="relative overflow-hidden mb-4">
@@ -210,7 +195,6 @@
                     <p class="text-gray-600 mb-2">599 PLN</p>
                     <button class="w-full bg-black text-white py-2 hover:bg-gray-800 transition">Dodaj do koszyka</button>
                 </div>
-                
                 <!-- Product 3 -->
                 <div class="product-card relative group">
                     <div class="relative overflow-hidden mb-4">
@@ -226,7 +210,6 @@
                     <p class="text-gray-600 mb-2">899 PLN</p>
                     <button class="w-full bg-black text-white py-2 hover:bg-gray-800 transition">Dodaj do koszyka</button>
                 </div>
-                
                 <!-- Product 4 -->
                 <div class="product-card relative group">
                     <div class="relative overflow-hidden mb-4">
@@ -243,13 +226,11 @@
                     <button class="w-full bg-black text-white py-2 hover:bg-gray-800 transition">Dodaj do koszyka</button>
                 </div>
             </div>
-            
             <div class="text-center mt-12">
                 <a href="#" class="inline-block border border-black px-8 py-3 hover:bg-black hover:text-white transition">Zobacz wszystkie produkty</a>
             </div>
         </div>
     </section>
-
     <!-- About Section -->
     <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
@@ -266,22 +247,18 @@
             </div>
         </div>
     </section>
-
     <!-- Newsletter -->
     <section class="py-16 bg-black text-white">
         <div class="container mx-auto px-4 text-center">
             <h2 class="font-cormorant text-3xl md:text-4xl mb-4">Zapisz się do naszego newslettera</h2>
             <p class="max-w-2xl mx-auto mb-8">Otrzymuj informacje o nowościach, ekskluzywnych ofertach i inspiracje stylistyczne prosto na swoją skrzynkę.</p>
-            
             <form class="max-w-md mx-auto flex">
                 <input type="email" placeholder="Twój adres e-mail" class="flex-grow px-4 py-3 text-black focus:outline-none">
                 <button type="submit" class="bg-white text-black px-6 py-3 hover:bg-gray-200 transition">Zapisz się</button>
             </form>
-            
             <p class="text-sm text-gray-400 mt-4">Zapisując się, wyrażasz zgodę na otrzymywanie wiadomości marketingowych.</p>
         </div>
     </section>
-
     <!-- Footer -->
     <footer class="bg-white pt-16 pb-8">
         <div class="container mx-auto px-4">
@@ -295,7 +272,6 @@
                         <li><a href="#" class="hover:text-gray-600 transition">Polityka prywatności</a></li>
                     </ul>
                 </div>
-                
                 <div>
                     <h3 class="font-cormorant text-xl font-medium mb-4">Atelier Élégance</h3>
                     <ul class="space-y-2">
@@ -305,7 +281,6 @@
                         <li><a href="#" class="hover:text-gray-600 transition">Blog</a></li>
                     </ul>
                 </div>
-                
                 <div>
                     <h3 class="font-cormorant text-xl font-medium mb-4">Śledź nas</h3>
                     <div class="flex space-x-4 mb-6">
@@ -313,7 +288,6 @@
                         <a href="#" class="w-10 h-10 border border-black rounded-full flex items-center justify-center hover:bg-black hover:text-white transition"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="w-10 h-10 border border-black rounded-full flex items-center justify-center hover:bg-black hover:text-white transition"><i class="fab fa-pinterest-p"></i></a>
                     </div>
-                    
                     <h3 class="font-cormorant text-xl font-medium mb-4">Metody płatności</h3>
                     <div class="flex space-x-2">
                         <img src="https://cdn-icons-png.flaticon.com/512/196/196578.png" alt="Visa" class="h-8">
@@ -323,7 +297,6 @@
                     </div>
                 </div>
             </div>
-            
             <div class="border-t border-gray-200 pt-8">
                 <div class="flex flex-col md:flex-row justify-between items-center">
                     <p class="text-sm text-gray-500 mb-4 md:mb-0">© 2023 Atelier Élégance. Wszelkie prawa zastrzeżone.</p>
@@ -335,7 +308,6 @@
             </div>
         </div>
     </footer>
-
     <!-- Product Page Example (Hidden) -->
     <div id="product-page" class="hidden">
         <div class="container mx-auto px-4 py-32">
@@ -360,12 +332,10 @@
                         </button>
                     </div>
                 </div>
-                
                 <!-- Product Info -->
                 <div class="lg:w-1/2">
                     <h1 class="font-cormorant text-3xl md:text-4xl mb-2">Koszula bawełniana</h1>
                     <p class="text-2xl mb-6">599 PLN</p>
-                    
                     <div class="mb-6">
                         <h3 class="font-medium mb-2">Kolor</h3>
                         <div class="flex space-x-2">
@@ -375,7 +345,6 @@
                             <button class="w-8 h-8 border border-gray-200 bg-red-800"></button>
                         </div>
                     </div>
-                    
                     <div class="mb-8">
                         <h3 class="font-medium mb-2">Rozmiar</h3>
                         <div class="flex flex-wrap gap-2">
@@ -386,9 +355,7 @@
                             <button class="px-4 py-2 border border-gray-200 hover:border-black transition">XL</button>
                         </div>
                     </div>
-                    
                     <button class="w-full bg-black text-white py-4 mb-6 hover:bg-gray-800 transition">Dodaj do koszyka</button>
-                    
                     <div class="space-y-4">
                         <!-- Accordion 1 -->
                         <div class="accordion border-b border-gray-200 pb-4">
@@ -400,7 +367,6 @@
                                 <p class="pt-2">Nasza koszula bawełniana to kwintesencja niewymuszonej elegancji. Uszyta z najwyższej jakości tkaniny, zapewnia komfort przez cały dzień. Jej klasyczny krój sprawia, że jest idealną bazą zarówno do biurowych, jak i weekendowych stylizacji.</p>
                             </div>
                         </div>
-                        
                         <!-- Accordion 2 -->
                         <div class="accordion border-b border-gray-200 pb-4">
                             <button class="accordion-btn w-full flex justify-between items-center">
@@ -411,7 +377,6 @@
                                 <p class="pt-2">100% bawełna egipska. Pranie w temp. 30°C. Prasowanie w średniej temperaturze. Nie wybielać.</p>
                             </div>
                         </div>
-                        
                         <!-- Accordion 3 -->
                         <div class="accordion border-b border-gray-200 pb-4">
                             <button class="accordion-btn w-full flex justify-between items-center">
@@ -470,47 +435,37 @@
             </div>
         </div>
     </div>
-
     <script>
         // Mobile menu toggle
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
         const closeMenuButton = document.getElementById('close-menu');
-        
         mobileMenuButton.addEventListener('click', () => {
             mobileMenu.classList.add('open');
             document.body.style.overflow = 'hidden';
         });
-        
         closeMenuButton.addEventListener('click', () => {
             mobileMenu.classList.remove('open');
             document.body.style.overflow = '';
         });
-
         // Accordion functionality
         const accordions = document.querySelectorAll('.accordion');
-        
         accordions.forEach(accordion => {
             const btn = accordion.querySelector('.accordion-btn');
             const content = accordion.querySelector('.accordion-content');
-            
             btn.addEventListener('click', () => {
                 accordion.classList.toggle('active');
             });
         });
-
         // Product image hover effect
         const productCards = document.querySelectorAll('.product-card');
-        
         productCards.forEach(card => {
             const primaryImg = card.querySelector('img:not(.secondary-image)');
             const secondaryImg = card.querySelector('.secondary-image');
-            
             card.addEventListener('mouseenter', () => {
                 primaryImg.style.opacity = '0';
                 secondaryImg.style.opacity = '1';
             });
-            
             card.addEventListener('mouseleave', () => {
                 primaryImg.style.opacity = '1';
                 secondaryImg.style.opacity = '0';
